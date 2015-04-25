@@ -1,0 +1,110 @@
+
+#new_post .form-title {
+	display: block;
+	width: 100%;
+	padding: 4px 5px;
+	margin-bottom: 2px;
+	border-radius: 3px;
+	font-size: 15px;
+	border: 1px solid #b9b9b9;
+	resize: none;
+	background: #fff;
+}
+#new_post .form-text {
+	display: block;
+	width: 100%;
+	padding: 4px 5px;
+	margin-bottom: 2px;
+	border-radius: 3px;
+	font-size: 15px;
+	border: 1px solid #b9b9b9;
+	resize: none;
+	background: #fff;
+}
+#new_post input, #new_post select {
+	display: inline-block;
+}
+
+#new_post fieldset {
+	border: 0;
+	border: 1px solid #b9b9b9;
+	border-radius: 3px;
+	line-height: 28px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	color: #b9b9b9;
+}
+#new_post fieldset select {
+	border: 0;
+	padding: 0;
+	border-radius: 0;
+	background: #fff;
+	
+	line-height: 28px;
+	height: 28px;
+	float: right;
+	font-size: 15px;
+	color: #b9b9b9;
+	min-width: 180px;
+}
+#new_post fieldset input {
+	border: 0;
+	background: #fff;
+	font-size: 15px;
+	padding: 0 25px;
+	color: #b9b9b9;
+	max-width: 220px;
+	float: right;
+	line-height: 28px;
+	border-right: 1px solid #b9b9b9;
+}
+#new_post .publish-post {
+	float: left;
+	border: 0;
+	margin: 0;
+	color: #fff;
+	padding: 0 15px;
+	line-height: 28px;
+	font-size: 14px;
+	background: green;
+}
+#new_post .upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	width: 48px;
+	height: 28px;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 99;
+	filter: alpha(opacity=0);
+}
+#new_post .photo-icon {
+	background: url(photo-icon.png) center center no-repeat;
+	height: 28px;
+	width: 48px;
+	float: right;
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+	border-left: 1px solid #b9b9b9;
+}
+#new_post .pp-devider {
+	display: none;
+	clear: both;
+	width: 100%;
+}
+@media (max-width: 768px) {
+	#new_post fieldset input {
+		border-right: 0;
+	}
+	#new_post .pp-devider {
+		display: block;
+		height: 1px;
+		background: #b9b9b9;
+	}
+}
